@@ -1,11 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>netcoreapp2.0;netstandard1.3;net45</TargetFrameworks>
+    <TargetFrameworks>netcoreapp3.1</TargetFrameworks>
     <Title>RocketLeagueReplayParser</Title>
     <Company>Joe Bott</Company>
     <Product>RocketLeagueReplayParser</Product>
     <Copyright>Copyright © 2015-2020</Copyright>
-
+    
     <!--Incrementing minor for every major patch -->
     <Version>2.6.0</Version>
     <FileVersion>2.6.0</FileVersion>

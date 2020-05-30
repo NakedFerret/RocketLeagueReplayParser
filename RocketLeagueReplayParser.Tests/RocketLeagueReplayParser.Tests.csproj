@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>netcoreapp2.0;net45</TargetFrameworks>
+    <TargetFrameworks>netcoreapp3.1</TargetFrameworks>
     <Title>RocketLeagueReplayParser.Tests</Title>
     <Company>Joe Bott</Company>
     <Product>RocketLeagueReplayParser.Tests</Product>

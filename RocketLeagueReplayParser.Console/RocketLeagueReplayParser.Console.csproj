@@ -1,10 +1,14 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>netcoreapp2.0;net45</TargetFrameworks>
+    <TargetFrameworks>netcoreapp3.1</TargetFrameworks>
     <Title>RocketLeagueReplayParser.Console</Title>
     <Company>Joe Bott</Company>
     <Product>RocketLeagueReplayParser.Console</Product>
     <Copyright>Copyright © 2018</Copyright>
+    <PublishTrimmed>true</PublishTrimmed>
+    <PublishReadyToRun>true</PublishReadyToRun>
+    <PublishSingleFile>true</PublishSingleFile>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
     <ApplicationIcon />
     <OutputType>Exe</OutputType>
     <StartupObject />
@@ -21,6 +25,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="CommandLineParser" Version="2.3.0" />
+    <PackageReference Include="MiniProfiler.AspNetCore" Version="4.1.0" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\RocketLeagueReplayParser\RocketLeagueReplayParser.csproj" />
