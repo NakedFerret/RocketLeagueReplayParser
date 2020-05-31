@@ -15,4 +15,9 @@
   <ItemGroup>
     <ProjectReference Include="..\RocketLeagueReplayParser\RocketLeagueReplayParser.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="TestReplays\**\*.*">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
 </Project>
